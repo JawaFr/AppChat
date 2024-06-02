@@ -36,21 +36,23 @@ h2{
     margin: 0.5em auto;
     border-radius: 10px;
     width: 90%;
-    height: 75%;
+    height: 90%;
 }
 .write_container{
     margin: auto;
+    padding: 0;
     width: 90%;
-    height: 20%;
+    height: 5%;
     display: flex;
+    
 }
 .write{
     font-family: "Radio Canada Big", sans-serif;
-    margin: auto;
+    margin: 0;
     border: none;
-    border-radius: 10px;
-    width: 80%;
-    height: 60%;
+    border-radius: 50px;
+    width: 90%;
+    height: 100%;
     background-color: rgb(73, 77, 90);
     resize: none;
     color: white;
@@ -59,13 +61,15 @@ h2{
     color: white;
     font-family: "Radio Canada Big", sans-serif;
     font-size: 16px;
+    
 }
 .write:focus{
     outline: none;
+    
 }
 .send{
     font-family: "Radio Canada Big", sans-serif;
-    margin: auto;
+    margin: auto 0;
     border: none;
     border-radius: 50px;
     width: 31px;
@@ -102,7 +106,7 @@ li{
     justify-content: end;
 }
 p{
-
+    margin: 3px 0;
     display: inline-block;
     border-radius: 15px;
     padding: 5px 15px;
@@ -126,8 +130,10 @@ p{
     display: flex;
     flex-direction: column;
     margin: 10em auto;
+    width: 20em;
 }
 .name_container{
+    margin: 10px auto;
     display: flex;
     flex-direction: column;
     color: white;
@@ -139,3 +145,4 @@ p{
     border-radius: 15px;
     border: none;
 }
+

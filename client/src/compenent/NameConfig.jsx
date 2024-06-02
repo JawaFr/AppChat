@@ -13,9 +13,9 @@ function NameConfig({ onSubmit }) {
   return (
     <form onSubmit={handleSubmit} className='nameConfig'>
       <div className='name_container'>
-        <label htmlFor="username">Entrez un pseudo </label>
         <input
           type="text"
+          placeholder='Pseudo'
           id="username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
